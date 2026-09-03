@@ -1,1 +1,313 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CargaTuCarro Bogotá | Recarga y mantenimiento de baterías de carro</title>
+  <meta name="description" content="CargaTuCarro en Bogotá: recarga, diagnóstico y mantenimiento de baterías de carro. Agenda tu cita según pico y placa. Calle 90 #49A-44, Paseo La Castellana. WhatsApp 300 756 8085.">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="CargaTuCarro">
+  <meta name="geo.region" content="CO-DC">
+  <meta name="geo.placename" content="Bogotá">
+  <link rel="canonical" href="https://cargatucarro.com/">
+  <meta property="og:title" content="CargaTuCarro Bogotá | Recarga y mantenimiento de baterías">
+  <meta property="og:description" content="Servicio de recarga y mantenimiento de baterías de carro en Bogotá. Agenda tu cita por pico y placa.">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:type" content="website">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 50:'#fff7ed', 500:'#f97316', 600:'#ea580c', 700:'#c2410c', 900:'#7c2d12' },
+            ink: '#0f172a'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    html { scroll-behavior: smooth; }
+    .hero {
+      background-image: linear-gradient(105deg, rgba(15,23,42,.92) 0%, rgba(15,23,42,.72) 55%, rgba(194,65,12,.35) 100%), url('https://images.unsplash.com/photo-1487754180451-c456f7791f46?auto=format&fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
 
+  <a href="#contenido" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-white px-3 py-2 rounded">Saltar al contenido</a>
+
+  <header class="bg-slate-900 text-white sticky top-0 z-40 shadow-lg">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+      <a href="index.html" class="flex items-center gap-3">
+        <span class="w-11 h-11 rounded-xl bg-orange-500 grid place-items-center text-xl"><i class="fas fa-car-battery"></i></span>
+        <span>
+          <strong class="block text-lg leading-none">CargaTuCarro</strong>
+          <span class="text-xs text-slate-300">Recarga y mantenimiento · Bogotá</span>
+        </span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#servicios" class="hover:text-orange-300">Servicios</a>
+        <a href="#pico-placa" class="hover:text-orange-300">Pico y placa</a>
+        <a href="#como-funciona" class="hover:text-orange-300">Cómo funciona</a>
+        <a href="#cobertura" class="hover:text-orange-300">Cobertura</a>
+        <a href="#contacto" class="hover:text-orange-300">Contacto</a>
+      </nav>
+      <a href="https://wa.me/573007568085?text=Hola%20CargaTuCarro%2C%20quiero%20agendar%20una%20cita%20de%20bater%C3%ADa%20en%20Bogot%C3%A1" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white font-semibold px-4 py-2 rounded-full text-sm inline-flex items-center gap-2">
+        <i class="fab fa-whatsapp"></i> 300 756 8085
+      </a>
+    </div>
+  </header>
+
+  <section class="hero text-white">
+    <div id="contenido" class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-200 text-sm font-medium px-3 py-1 rounded-full mb-4">Taller en Paseo La Castellana · Servicio en Bogotá</p>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-4">Recarga y mantenimiento de baterías de carro en Bogotá</h1>
+        <p class="text-lg text-slate-200 mb-6">Si tu carro no arranca o la batería está baja, en CargaTuCarro hacemos diagnóstico, recarga y mantenimiento. Agenda tu cita el día de tu pico y placa para no perder tiempo en el tráfico.</p>
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a href="#pico-placa" class="bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-full text-center">Agenda tu cita por pico y placa</a>
+          <a href="https://wa.me/573007568085?text=Hola%20CargaTuCarro%2C%20necesito%20recarga%20o%20mantenimiento%20de%20bater%C3%ADa" target="_blank" rel="noopener noreferrer" class="bg-white text-slate-900 hover:bg-slate-100 font-bold px-6 py-3 rounded-full text-center">Hablar por WhatsApp</a>
+        </div>
+        <ul class="mt-8 grid grid-cols-2 gap-3 text-sm text-slate-200">
+          <li><i class="fas fa-location-dot text-orange-400 mr-2"></i>Calle 90 #49A-44</li>
+          <li><i class="fas fa-clock text-orange-400 mr-2"></i>Lun–Sáb 7:00 a.m. – 7:00 p.m.</li>
+          <li><i class="fas fa-car text-orange-400 mr-2"></i>Particular, taxi y camioneta</li>
+          <li><i class="fas fa-file-invoice text-orange-400 mr-2"></i>Cotización antes de trabajar</li>
+        </ul>
+      </div>
+      <div class="bg-white text-slate-800 rounded-2xl p-6 shadow-2xl">
+        <h2 class="text-xl font-bold mb-1">Solicitar cita</h2>
+        <p class="text-sm text-slate-500 mb-4">Te respondemos por WhatsApp. No hay cobro automático al enviar este formulario.</p>
+        <form id="citaForm" class="space-y-3">
+          <label class="block text-sm font-medium">Nombre completo
+            <input required name="nombre" class="mt-1 w-full border rounded-lg px-3 py-2" placeholder="Tu nombre">
+          </label>
+          <label class="block text-sm font-medium">Celular
+            <input required name="celular" type="tel" inputmode="numeric" class="mt-1 w-full border rounded-lg px-3 py-2" placeholder="300 000 0000">
+          </label>
+          <label class="block text-sm font-medium">Servicio
+            <select name="servicio" class="mt-1 w-full border rounded-lg px-3 py-2">
+              <option>Recarga de batería</option>
+              <option>Diagnóstico eléctrico</option>
+              <option>Mantenimiento de bornes y carga</option>
+              <option>No arranca / emergencia</option>
+              <option>Otro</option>
+            </select>
+          </label>
+          <label class="block text-sm font-medium">Último dígito de la placa
+            <input name="placa" maxlength="1" inputmode="numeric" class="mt-1 w-full border rounded-lg px-3 py-2" placeholder="Ej: 4">
+          </label>
+          <label class="flex items-start gap-2 text-xs text-slate-600">
+            <input required type="checkbox" class="mt-1">
+            <span>Autorizo el tratamiento de mis datos para agendar y responder esta solicitud, según la <a href="politicas.html" class="underline text-orange-700">Política de Tratamiento de Datos</a>.</span>
+          </label>
+          <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg">
+            Enviar por WhatsApp
+          </button>
+        </form>
+        <p class="text-[11px] text-slate-500 mt-3">Al enviar se abre WhatsApp con tu mensaje. El valor del servicio se confirma antes de ejecutarlo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pico-placa" class="bg-orange-500 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-10 md:py-12">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <p class="uppercase tracking-wide text-sm font-semibold text-orange-100 mb-2">Banner de movilidad Bogotá</p>
+          <h2 class="text-3xl md:text-4xl font-extrabold mb-3">Agenda tu cita por tu pico y placa</h2>
+          <p class="text-orange-50 mb-4">El día que no puedes circular es el mejor día para recargar o revisar la batería. Ingresa el último dígito de tu placa y te indicamos si hoy aplica restricción según el esquema vigente de la Secretaría Distrital de Movilidad.</p>
+          <ul class="text-sm space-y-1 text-orange-50">
+            <li>• Particulares: lunes a viernes, 6:00 a.m. a 9:00 p.m.</li>
+            <li>• Días impares circulan placas 1, 2, 3, 4 y 5</li>
+            <li>• Días pares circulan placas 6, 7, 8, 9 y 0</li>
+            <li>• Sábados, domingo y festivos no aplica la medida</li>
+          </ul>
+          <p class="text-xs mt-3 text-orange-100">Consulta oficial: Secretaría Distrital de Movilidad. El calendario puede cambiar; confirma en bogota.gov.co.</p>
+        </div>
+        <div class="bg-white text-slate-800 rounded-2xl p-6">
+          <label class="block font-semibold mb-2">Último dígito de tu placa</label>
+          <div class="flex gap-2">
+            <input id="digitoPlaca" maxlength="1" inputmode="numeric" class="w-24 border rounded-lg px-3 py-3 text-center text-2xl font-bold" placeholder="0-9">
+            <button type="button" id="btnPico" class="flex-1 bg-slate-900 text-white rounded-lg font-semibold">Consultar y agendar</button>
+          </div>
+          <p id="resultadoPico" class="mt-4 text-sm bg-slate-100 rounded-lg p-3">Escribe el último dígito para ver si hoy tienes pico y placa y proponerte un horario de cita.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold text-slate-900 mb-2">Servicios</h2>
+      <p class="text-slate-600 mb-8 max-w-3xl">Atendemos baterías de vehículos particulares, taxis y camionetas. No vendemos “soluciones milagrosas”: primero revisamos el estado de la batería y del sistema de carga, te explicamos el diagnóstico y cotizamos antes de intervenir.</p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <article class="bg-white rounded-2xl p-6 shadow-sm border">
+          <i class="fas fa-plug text-3xl text-orange-500 mb-3"></i>
+          <h3 class="text-xl font-bold mb-2">Recarga de batería</h3>
+          <p class="text-sm text-slate-600">Recarga controlada cuando la batería está descargada pero aún es recuperable. Te indicamos si conviene recargar o si ya no retiene carga.</p>
+        </article>
+        <article class="bg-white rounded-2xl p-6 shadow-sm border">
+          <i class="fas fa-stethoscope text-3xl text-orange-500 mb-3"></i>
+          <h3 class="text-xl font-bold mb-2">Diagnóstico eléctrico</h3>
+          <p class="text-sm text-slate-600">Medición de voltaje, prueba de carga y revisión básica de bornes, cables y sistema de carga para identificar la causa de la falla.</p>
+        </article>
+        <article class="bg-white rounded-2xl p-6 shadow-sm border">
+          <i class="fas fa-screwdriver-wrench text-3xl text-orange-500 mb-3"></i>
+          <h3 class="text-xl font-bold mb-2">Mantenimiento</h3>
+          <p class="text-sm text-slate-600">Limpieza de bornes, ajuste de conexiones y revisión preventiva para reducir descargas y problemas de arranque.</p>
+        </article>
+      </div>
+      <div class="mt-8 bg-white border rounded-2xl p-6">
+        <h3 class="font-bold text-lg mb-2">Valores y condiciones</h3>
+        <p class="text-sm text-slate-600">El precio depende del tipo de batería, del estado real del vehículo y de si el servicio es en nuestro punto de Calle 90 o con desplazamiento. <strong>No publicamos un precio único</strong> porque variaría según cada caso. Siempre recibes cotización verbal o por WhatsApp antes de autorizar el trabajo. No hay cobros ocultos ni cargos recurrentes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold mb-8">Cómo funciona</h2>
+      <ol class="grid md:grid-cols-4 gap-6">
+        <li class="bg-slate-50 rounded-2xl p-5"><span class="font-black text-orange-500 text-2xl">1</span><h3 class="font-bold mt-2">Contactas</h3><p class="text-sm text-slate-600">WhatsApp o formulario. Nos dices placa, zona y síntoma.</p></li>
+        <li class="bg-slate-50 rounded-2xl p-5"><span class="font-black text-orange-500 text-2xl">2</span><h3 class="font-bold mt-2">Agendamos</h3><p class="text-sm text-slate-600">Priorizamos el día de tu pico y placa o una franja disponible.</p></li>
+        <li class="bg-slate-50 rounded-2xl p-5"><span class="font-black text-orange-500 text-2xl">3</span><h3 class="font-bold mt-2">Diagnosticamos</h3><p class="text-sm text-slate-600">Revisamos y te explicamos si se recarga, se mantiene o se debe cambiar.</p></li>
+        <li class="bg-slate-50 rounded-2xl p-5"><span class="font-black text-orange-500 text-2xl">4</span><h3 class="font-bold mt-2">Autorizas</h3><p class="text-sm text-slate-600">Trabajamos solo después de que apruebes el valor y el alcance.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="cobertura" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-start">
+      <div>
+        <h2 class="text-3xl font-extrabold mb-3">Punto de atención y cobertura</h2>
+        <p class="text-slate-600 mb-4"><strong>Dirección:</strong> Calle 90 #49A-44, Paseo La Castellana, Bogotá D.C., Colombia.</p>
+        <p class="text-slate-600 mb-4">Atendemos principalmente el norte y el resto de Bogotá según disponibilidad del técnico y condiciones de tráfico. Si no podemos desplazarnos el mismo día, te lo decimos de inmediato y te ofrecemos cita en taller.</p>
+        <ul class="text-sm space-y-2 text-slate-700">
+          <li><i class="fas fa-phone text-orange-500 w-5"></i> WhatsApp / celular: <a class="underline" href="tel:+573007568085">300 756 8085</a></li>
+          <li><i class="fas fa-clock text-orange-500 w-5"></i> Lunes a sábado: 7:00 a.m. a 7:00 p.m.</li>
+          <li><i class="fas fa-calendar text-orange-500 w-5"></i> Domingo y festivos: previa confirmación</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl overflow-hidden h-80 border bg-slate-200">
+        <iframe title="Mapa CargaTuCarro Bogotá" class="w-full h-full" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Calle%2090%20%2349A-44%20Paseo%20La%20Castellana%20Bogota&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-white" id="faq">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold mb-6">Preguntas frecuentes</h2>
+      <div class="space-y-4 text-sm">
+        <details class="bg-slate-50 rounded-xl p-4" open>
+          <summary class="font-semibold cursor-pointer">¿La recarga sirve para cualquier batería?</summary>
+          <p class="mt-2 text-slate-600">No. Si la batería ya no retiene carga o está sulfatada, la recarga no la recupera. Por eso hacemos diagnóstico previo y te lo informamos antes de cobrar un servicio que no va a resolver el problema.</p>
+        </details>
+        <details class="bg-slate-50 rounded-xl p-4">
+          <summary class="font-semibold cursor-pointer">¿Hacen garantía?</summary>
+          <p class="mt-2 text-slate-600">La garantía depende del tipo de intervención. En recarga y mantenimiento se informa el alcance al momento de la cotización. No prometemos duración indefinida de una batería usada.</p>
+        </details>
+        <details class="bg-slate-50 rounded-xl p-4">
+          <summary class="font-semibold cursor-pointer">¿El formulario reserva y cobra automáticamente?</summary>
+          <p class="mt-2 text-slate-600">No. El formulario solo abre WhatsApp con tus datos para coordinar. No hay cargo en línea ni suscripción.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="py-16 bg-slate-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-extrabold mb-3">Contacto</h2>
+      <p class="mb-2">CargaTuCarro · Calle 90 #49A-44, Paseo La Castellana, Bogotá</p>
+      <p class="mb-6">WhatsApp 300 756 8085</p>
+      <a href="https://wa.me/573007568085?text=Hola%20CargaTuCarro%2C%20quiero%20agendar%20cita" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 font-bold px-8 py-4 rounded-full text-lg">
+        <i class="fab fa-whatsapp text-2xl"></i> Escribir ahora
+      </a>
+    </div>
+  </section>
+
+  <footer class="bg-slate-950 text-slate-300 py-10 text-sm">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <div>
+        <p class="text-white font-bold">CargaTuCarro</p>
+        <p>Establecimiento de servicios de recarga y mantenimiento de baterías de vehículo en Bogotá D.C.</p>
+      </div>
+      <div>
+        <p class="text-white font-bold mb-2">Legal</p>
+        <a class="block underline" href="politicas.html">Política de Tratamiento de Datos</a>
+        <a class="block underline" href="terminos.html">Términos y condiciones</a>
+        <a class="block underline" href="politicas.html#cookies">Uso de cookies</a>
+      </div>
+      <div>
+        <p class="text-white font-bold mb-2">Identificación</p>
+        <p>Dirección: Calle 90 #49A-44, Paseo La Castellana, Bogotá</p>
+        <p>Tel: 300 756 8085</p>
+        <p class="mt-2 text-xs">Sitio informativo de un servicio local. No somos entidad pública ni estamos afiliados a la Secretaría de Movilidad.</p>
+      </div>
+    </div>
+    <p class="text-center text-xs text-slate-500 mt-8">© <span id="year"></span> CargaTuCarro. Todos los derechos reservados.</p>
+  </footer>
+
+  <a href="https://wa.me/573007568085?text=Hola%20CargaTuCarro%2C%20vi%20la%20p%C3%A1gina%20y%20quiero%20agendar" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp CargaTuCarro" class="fixed bottom-5 right-5 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full grid place-items-center text-3xl shadow-lg">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <div id="cookieBar" class="fixed bottom-0 inset-x-0 bg-slate-900 text-white text-sm p-4 z-40 hidden">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-3 items-center justify-between">
+      <p>Usamos cookies técnicas necesarias para el funcionamiento del sitio. Consulta la <a class="underline" href="politicas.html#cookies">política de cookies</a>.</p>
+      <button id="aceptarCookies" class="bg-orange-500 px-4 py-2 rounded-lg font-semibold">Entendido</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    if (!localStorage.getItem('ctc_cookies')) document.getElementById('cookieBar').classList.remove('hidden');
+    document.getElementById('aceptarCookies').onclick = function () {
+      localStorage.setItem('ctc_cookies', '1');
+      document.getElementById('cookieBar').classList.add('hidden');
+    };
+
+    function reglaPico(digito, fecha) {
+      const d = fecha.getDay();
+      if (d === 0 || d === 6) return { aplica: false, circula: true, texto: 'Hoy no aplica pico y placa (fin de semana). Puedes agendar en cualquier horario disponible.' };
+      const diaMes = fecha.getDate();
+      const impar = diaMes % 2 === 1;
+      const circula = impar ? (digito >= 1 && digito <= 5) : (digito === 0 || digito >= 6);
+      const grupoHoy = impar ? '1 a 5' : '6, 7, 8, 9 y 0';
+      if (circula) {
+        return { aplica: true, circula: true, texto: 'Hoy SÍ puedes circular (placas ' + grupoHoy + '). Puedes venir al taller o pedir cita en un hueco de tu día.' };
+      }
+      return { aplica: true, circula: false, texto: 'Hoy NO puedes circular. Es un buen día para dejar el carro en CargaTuCarro y hacer recarga o mantenimiento.' };
+    }
+
+    function consultarPico() {
+      const raw = (document.getElementById('digitoPlaca').value || '').trim();
+      const n = parseInt(raw, 10);
+      const box = document.getElementById('resultadoPico');
+      if (isNaN(n) || n < 0 || n > 9) {
+        box.textContent = 'Ingresa un dígito válido entre 0 y 9.';
+        return;
+      }
+      const r = reglaPico(n, new Date());
+      box.innerHTML = r.texto + ' <a class="underline font-semibold" target="_blank" rel="noopener" href="https://wa.me/573007568085?text=' + encodeURIComponent('Hola CargaTuCarro, mi placa termina en ' + n + '. Quiero agendar cita de batería en Bogotá.') + '">Agendar por WhatsApp</a>';
+    }
+    document.getElementById('btnPico').addEventListener('click', consultarPico);
+
+    document.getElementById('citaForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const fd = new FormData(e.target);
+      const msg = 'Hola CargaTuCarro, soy ' + fd.get('nombre') +
+        '. Celular: ' + fd.get('celular') +
+        '. Servicio: ' + fd.get('servicio') +
+        '. Placa termina en: ' + (fd.get('placa') || 'no indica') +
+        '. Quiero agendar cita en Bogotá (Calle 90 #49A-44 / Paseo La Castellana).';
+      window.open('https://wa.me/573007568085?text=' + encodeURIComponent(msg), '_blank');
+    });
+  </script>
+</body>
+</html>
